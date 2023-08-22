@@ -16,6 +16,8 @@ void tictactoe::stop() {
 }
 
 void tictactoe::update() {
+	printf("%d|%d|%d\n-+-+-\n%d|%d|%d\n-+-+-\n%d|%d|%d\n", 
+	board[0], board[1], board[2], board[3], board[4], board[5], board[6], board[7], board[8]);
 	int pos;
 	std::cout << "pick a number from 1-9" << std::endl;
 	std::cin >> pos;
